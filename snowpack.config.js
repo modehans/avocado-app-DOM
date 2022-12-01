@@ -1,10 +1,10 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: './',
+    public: '/',
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://github.com/modehans/avocado-app-DOM',
   },
 };
